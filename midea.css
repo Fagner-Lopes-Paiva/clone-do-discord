@@ -1,0 +1,154 @@
+@media (min-width: 720px) and (max-width: 2506px){
+    body {
+        width: 2506px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: canter;
+    }
+    main {
+        width: 1280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header {
+        width: 1280px;
+        background-image: url('img/Header.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    section {
+        width: 1280px;
+        height: 448px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 27px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    p {
+        line-height: 21.79px;
+        font-size: 16px;
+        margin: 0;
+    }
+    .card-de-texto {
+        justify-content: center;
+        align-items: center;
+    }
+    #carde-1 {
+        width: 348px;
+        height: 374px;
+    }
+    #carde-2 {
+        width: 351px;
+        height: 212px;
+    }
+    #carde-3 {
+        width: 351px;
+        height: 23px;
+    }
+    #carde-4 {
+        width: 802px;
+        height: 160px;
+    }
+    #sesao-1 {
+        height: 573px;
+    }
+    #sesao-2 {
+        height: 507px;
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: #f6f6f6;
+    }
+    #sesao-3 {
+        height: 507px;
+    }
+    #sesao-4 {
+        height: 744px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f6f6f6;
+    }
+    
+    #titulo-1 {
+        width: 348px;
+        height: 230px;
+    }
+    #titulo-2 {
+        width: 348px;
+        height: 108px;
+    }
+    #titulo-3 {
+        width: 348px;
+        height: 108px;
+    }
+    #titulo-4 {
+        width: 608px;
+        height: 84px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+    }
+    #paragrafo-1 {
+        width: 348px;
+    }
+    #paragrafo-2 {
+        width: 348px;
+    }
+    #paragrafo-3 {
+        width: 348px;
+    }    
+    #paragrafo-4 {
+        width: 802px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .imagem {
+        width: 607px;
+        height: 394px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #imagem-1 {
+        background-image: url('img/Section-1.png');
+    }
+    #imagem-2 {
+        background-image: url('img/Section-2.png');
+    }
+    #imagem-3 {
+        background-image: url('img/Section-3.png');
+    }
+    #imagem-4 {
+        width: 784px;
+        height: 508px;
+        background-image: url('img/Section-4.png');
+    }
+    #icone-discord {
+        background-image: url('img/svgexport-15\ 1.png');background-size: cover;
+        background-position: center;
+        width: 230px;
+        height: 63;
+    }
+    footer {
+        width: 1280px;
+        height: 134px;
+    }
+}

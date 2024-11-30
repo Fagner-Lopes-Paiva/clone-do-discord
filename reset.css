@@ -1,0 +1,71 @@
+/* Remova margens, preenchimentos e bordas padrão */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Defina o estilo básico para o corpo */
+body {
+    line-height: 1;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remova decorações e defina uma cor padrão para links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remova estilo de listas */
+ol, ul {
+    list-style: none;
+}
+
+/* Remova estilo de tabelas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Defina tamanho das imagens */
+img, picture, video, canvas, svg {
+    max-width: 100%;
+    display: block;
+}
+
+/* Remova estilos de botões */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Defina borda padrão para inputs e seletores */
+input, select, textarea {
+    border: 1px solid transparent;
+    outline: none;
+    font: inherit;
+}
+
+/* Torne o container do iframe flexível */
+iframe {
+    border: 0;
+    max-width: 100%;
+}
+
+/* Defina um estilo básico para elementos de cabeçalho */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+/* Aplique altura da linha e espaçamento entre parágrafos */
+p {
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
